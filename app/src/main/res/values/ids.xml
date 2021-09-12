@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> <item name="register" type="id" />
+    <item name="signup_screen" type="id"/>
+    <item name="button" type="id"/>
+    <item name="SignIn" type="id" />
+    <item name="progressbar" type="id" />
+    <item name="editText" type="id" />
+</resources>

@@ -1,0 +1,68 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CarRentApp" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:windowDisablePreview">true</item>
+
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.CarRentApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+
+    <style name="SplashViewTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.CarRentApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.CarRentApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <!--    <style name="Theme.CarRentApp" parent="Theme.MaterialComponents.Light.DarkActionBar">-->
+    <!--        &lt;!&ndash; Primary brand color. &ndash;&gt;-->
+    <!--        <item name="colorPrimary">@color/purple_200</item>-->
+    <!--        <item name="colorPrimaryVariant">@color/purple_700</item>-->
+    <!--        <item name="colorOnPrimary">@color/black</item>-->
+    <!--        &lt;!&ndash; Secondary brand color. &ndash;&gt;-->
+    <!--        <item name="colorSecondary">@color/teal_200</item>-->
+    <!--        <item name="colorSecondaryVariant">@color/teal_200</item>-->
+    <!--        <item name="colorOnSecondary">@color/black</item>-->
+    <!--        &lt;!&ndash;        <item name="toolbarStyle">@style/ToolbarStyle</item>&ndash;&gt;-->
+    <!--        &lt;!&ndash;        <item name="actionOverflowButtonStyle">@style/ToolbarStyle.Overflow</item>&ndash;&gt;-->
+    <!--        &lt;!&ndash;        <item name="drawerArrowStyle">@style/ToolbarStyle.DrawerIcon</item>&ndash;&gt;-->
+    <!--        &lt;!&ndash;        <item name="android:textColor">?attr/colorOnPrimary</item>&ndash;&gt;-->
+    <!--        &lt;!&ndash;        <item name="android:textColorPrimary">?attr/colorOnPrimary</item>&ndash;&gt;-->
+    <!--        &lt;!&ndash;        <item name="android:textColorSecondary">?attr/colorOnPrimary</item>&ndash;&gt;-->
+    <!--        &lt;!&ndash; Status bar color. &ndash;&gt;-->
+    <!--        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>-->
+    <!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+    <!--    </style>-->
+
+    <!--    <style name="ToolbarStyle" parent="@style/Widget.MaterialComponents.Toolbar">-->
+    <!--        <item name="titleTextColor">@android:color/white</item>-->
+    <!--        <item name="android:background">?attr/colorPrimary</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="ToolbarStyle.Overflow" parent="@style/Widget.AppCompat.ActionButton.Overflow">-->
+    <!--        <item name="android:tint">@android:color/white</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="ToolbarStyle.DrawerIcon" parent="Widget.AppCompat.DrawerArrowToggle">-->
+    <!--        <item name="color">@android:color/white</item>-->
+    <!--    </style>-->
+</resources>

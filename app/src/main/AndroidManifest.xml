@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.carrentapp">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CarRentApp"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ResetPassword"></activity>
+        <activity android:name=".admin_drivinglicence_modal" />
+        <activity
+            android:name=".licence_admin"
+            android:theme="@style/Theme.CarRentApp.NoActionBar" />
+        <activity android:name=".car_detailsfor_admin" />
+        <activity android:name=".admin_signup" />
+        <activity android:name=".DriverLicence_User" />
+        <activity android:name=".DateTime_Selection" />
+        <activity
+            android:name=".AdminDashboard"
+            android:theme="@style/Theme.CarRentApp.NoActionBar" />
+        <activity
+            android:name=".Home"
+            android:theme="@style/Theme.CarRentApp.NoActionBar" />
+        <activity android:name=".AdminCarDetail" />
+        <activity android:name=".BookingActivity" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".SignIn" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/SplashViewTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Map" />
+        <activity
+            android:name=".MapsActivity"
+            android:theme="@style/Theme.CarRentApp.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDbrNhwjK6JCPinKsi0tOs_a6O29EJG3C0" />
+    </application>
+
+</manifest>

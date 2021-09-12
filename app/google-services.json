@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "899082268110",
+    "project_id": "carrentapp-c3973",
+    "storage_bucket": "carrentapp-c3973.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899082268110:android:d6f9882a72bc6971fd0f9f",
+        "android_client_info": {
+          "package_name": "com.example.carrentapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899082268110-vei57cu796emd23498fu002blhi9al8s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.carrentapp",
+            "certificate_hash": "22b95bbc469c7edbf74b132d4bcd9cbeae290867"
+          }
+        },
+        {
+          "client_id": "899082268110-48538q19i3iontlc6otf9fduuqoq5vrg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbrNhwjK6JCPinKsi0tOs_a6O29EJG3C0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899082268110-48538q19i3iontlc6otf9fduuqoq5vrg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
